@@ -48,6 +48,7 @@ jobs:
         with:
           path-to-document: https://raw.githubusercontent.com/Generative-Logic/test_repo/main/legal/CONTRIBUTOR_LICENSE_AGREEMENT.md
           path-to-signatures: signatures/cla.json
+          branch: main
           allowlist: |
             dependabot[bot]
             github-actions[bot]
